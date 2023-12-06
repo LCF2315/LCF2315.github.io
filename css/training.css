@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+}
+header{
+    height: 35em;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover;
+    box-shadow: 5px 10px;
+}
+header img{
+    max-width:100%;
+    margin: 0;
+    background-size: cover;
+    object-fit: cover;
+    display:block;
+}
+nav{
+    padding: 5px;
+    height: 90px;
+    color: aliceblue;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(8, 1, 17);
+    /* float: right; */
+}
+#logo {
+    margin-left: 2em;
+}
+#logo h1, h3 {
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+}
+nav ul{
+    height: 30px;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+nav li a{
+    font-size: large;
+    color: aliceblue;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left:2em;
+    padding-right:2em;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.training-table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.training-table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.training-table th, .training-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.training-table th {
+    background-color: #f2f2f2;
+}
+
+.training-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.training-table tbody tr:hover {
+    background-color: #cce5ff;
+}
+
+footer{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(39, 167, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
