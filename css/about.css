@@ -37,16 +37,19 @@ header{
 }
 
 .txt h1{   
-    color: white; 
-    font-size: 60px; 
-    font-weight: bold;
+    color: white; /* Adjust text color as needed */
+    font-size: 60px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
 }
 
 .txt h2{
-
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
+    /* top: 35%;
+    left: 50%;
+    font-size: 500px;
+    transform: translate(-50%, -50%); */
+    color: white; /* Adjust text color as needed */
+    font-size: 60px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
 }
 .tab-desk{
     padding: 5px;
@@ -130,18 +133,75 @@ header{
     }
 }
 
-@media screen and (min-width: 550px),
-print {
-    .tab-desk{
-        display: none;
-    }
-    .mobile-nav{
-        display: block;
-    }
-    .menu-icon{
-        display:contents ;
-    }
+/* Add this CSS code at the end of your existing CSS */
+
+@media screen and (max-width: 768px) {
+        .mobile-nav {
+            display: block;
+            background-color: black;
+        }
+    
+        .tab-desk {
+            display: none;
+        }
+    
+        nav ul {
+            display: none;
+            flex-direction: column;
+        }
+    
+        .menu-icon {
+            display: flex;
+        }
+    
+        .menu-icon div {
+            margin-top: 5px;
+        }
+    
+        .tab-desk ul {
+            display: none;
+        }
+    
+        .tab-desk li {
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+        }
+    
+        .mobile-nav a {
+            padding: 1em;
+            display: block;
+            color: aliceblue;
+            text-decoration: none;
+            text-align: center;
+        }
+        .contant{
+            display: block;
+            margin-top: 250px;
+            margin-bottom: 250px;
+            margin-left: 0;
+            margin-right: 0;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        .head img{
+            max-width:100%;
+            height: 53em;
+            margin: 0;
+            background-size: cover;
+            object-fit: cover;
+            display:block;
+        }
+        .right img{
+            max-width:100%;
+            height: 50em;
+            margin: 0;
+            background-size: cover;
+            object-fit: cover;
+            display:block;
+        }
 }
+
 
 footer{
     margin-top: 50px;
