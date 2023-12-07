@@ -132,7 +132,7 @@ header{
       transform: translateY(0); /* Move the text up */
     }
 }
-
+/* for mobile */
 /* Add this CSS code at the end of your existing CSS */
 
 @media screen and (max-width: 768px) {
@@ -192,7 +192,7 @@ header{
             object-fit: cover;
             display:block;
         }
-        .right img{
+        .right img { 
             max-width:100%;
             height: 50em;
             margin: 0;
